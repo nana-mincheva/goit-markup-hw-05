@@ -721,6 +721,11 @@ body {
   z-index: 1;
 }
 
+.modal .is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal-content {
   display: flex;
   justify-content: center;
@@ -739,7 +744,7 @@ body {
   border-radius: 4px;
 }
 
-[data-modal-close] {
+.close-button {
   position: absolute;
   top: 8px;
   right: 8px;
