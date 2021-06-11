@@ -436,12 +436,14 @@ body {
 }
 
 .desc {
-  display: flex;
   font-size: 14px;
-  line-height: 1.142px;
+  line-height: 1.142;
   letter-spacing: 0.03em;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-top: 27px;
+  text-align: center;
 }
 
 /*TEAM SECTION*/
